@@ -1,0 +1,24 @@
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\CodeGenTest.Properties.Resources.resources
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Debug\CodeGenTest.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Debug\CodeGenTest.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Debug\ManagedUPnP.dll
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Debug\ManagedUPnP.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Debug\ManagedUPnP.xml
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\CodeGenTest.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\CodeGenTest.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Debug\CodeGenTest.Form1.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.Form1.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.Properties.Resources.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\ManagedUPnP.dll
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\ManagedUPnP.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\ManagedUPnP.xml

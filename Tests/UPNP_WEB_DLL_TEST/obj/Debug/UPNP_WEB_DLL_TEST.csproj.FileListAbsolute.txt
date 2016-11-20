@@ -1,0 +1,7 @@
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\obj\Debug\UPNP_WEB_DLL_TEST.csprojResolveAssemblyReference.cache
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\bin\Debug\UPNP_WEB_DLL_TEST.exe.config
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\bin\Debug\UPNP_WEB_DLL_TEST.exe
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\bin\Debug\UPNP_WEB_DLL_TEST.pdb
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\bin\Debug\ManagedUPnP.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\obj\Debug\UPNP_WEB_DLL_TEST.exe
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNP_WEB_DLL_TEST\obj\Debug\UPNP_WEB_DLL_TEST.pdb

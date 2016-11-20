@@ -1,0 +1,8 @@
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\bin\Debug\UPnPConsoleTest.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\bin\Debug\UPnPConsoleTest.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\bin\Debug\ManagedUPnP.dll
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\bin\Debug\ManagedUPnP.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\bin\Debug\ManagedUPnP.xml
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\obj\x86\Debug\UPnPConsoleTest.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\UPnPConsoleTest\obj\x86\Debug\UPnPConsoleTest.pdb

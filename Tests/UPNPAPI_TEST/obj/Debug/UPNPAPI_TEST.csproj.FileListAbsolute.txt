@@ -1,0 +1,11 @@
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\bin\Debug\UPNPAPI_TEST.exe.config
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\obj\Debug\Interop.UPnPHostLib.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\obj\Debug\Interop.UPNPLib.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\obj\Debug\UPNPAPI_TEST.csproj.ResolveComReference.cache
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\bin\Debug\UPNPAPI_TEST.exe
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\bin\Debug\UPNPAPI_TEST.pdb
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\bin\Debug\Interop.UPnPHostLib.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\bin\Debug\Interop.UPNPLib.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\obj\Debug\UPNPAPI_TEST.csprojResolveAssemblyReference.cache
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\obj\Debug\UPNPAPI_TEST.exe
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Tests\UPNPAPI_TEST\obj\Debug\UPNPAPI_TEST.pdb

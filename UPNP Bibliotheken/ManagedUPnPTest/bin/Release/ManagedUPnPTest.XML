@@ -1,0 +1,1760 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManagedUPnPTest</name>
+    </assembly>
+    <members>
+        <member name="T:ManagedUPnPTest.UPnPStateVarTreeItem">
+            <summary>
+            Encapsulates a tree item which represnets a state variable.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPServiceBasedTreeItem">
+            <summary>
+            Encapsulates a UPnPTreeItem which is linked to a service
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPTreeItem">
+            <summary>
+            Encapsulates a base UPnP tree item.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.IUPnPTreeItem">
+            <summary>
+            Encapsulates the methods and properties for UPnP tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.IUPnPTreeItem.LinkedObject">
+            <summary>
+            Gets the linked object to the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.IUPnPTreeItem.ItemText">
+            <summary>
+            Gets the item text for the tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.IUPnPTreeItem.VisibleItemText">
+            <summary>
+            Gets or sets the overrided item text.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.IUPnPTreeItem.ItemKey">
+            <summary>
+            Gets the key for teh tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.IUPnPTreeItem.ItemIcon">
+            <summary>
+            Gets the custom icon for the node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.IUPnPTreeItem.InfoControl">
+            <summary>
+            Gets a newly created information control for the item.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.UPnPTreeItem.msVisibleItemText">
+            <summary>
+            The current visible item text.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPTreeItem.LinkedObject">
+            <summary>
+            Gets the linked object to the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPTreeItem.InfoControl">
+            <summary>
+            Gets a newly created information control for the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPTreeItem.ItemText">
+            <summary>
+            Gets the item text for the tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPTreeItem.ItemKey">
+            <summary>
+            Gets the key for teh tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPTreeItem.ItemIcon">
+            <summary>
+            Gets the custom icon for the node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPTreeItem.VisibleItemText">
+            <summary>
+            Gets or sets the overrided item text.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.UPnPServiceBasedTreeItem.msService">
+            <summary>
+            The service linked to this item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPServiceBasedTreeItem.#ctor(ManagedUPnP.Service)">
+            <summary>
+            Creates a new service based tree item.
+            </summary>
+            <param name="service">The service for the item.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPServiceBasedTreeItem.LinkedObject">
+            <summary>
+            Gets the linked object to the item.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.UPnPStateVarTreeItem.mdDesc">
+            <summary>
+            The state variable description for this tree item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPStateVarTreeItem.#ctor(ManagedUPnP.Service,ManagedUPnP.Descriptions.StateVariableDescription)">
+            <summary>
+            Creates a new state variable tree item.
+            </summary>
+            <param name="service">The service for which this state variable belongs.</param>
+            <param name="desc">The state variable description.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPStateVarTreeItem.ItemText">
+            <summary>
+            Gets the item text for the tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPStateVarTreeItem.InfoControl">
+            <summary>
+            Gets a newly created information control for the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPStateVarTreeItem.ItemKey">
+            <summary>
+            Gets the key for teh tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPStateVarTreeItem.ItemIcon">
+            <summary>
+            Gets the custom icon for the node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPStateVarTreeItem.VarName">
+            <summary>
+            Gets the state variables name.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPServiceTreeItem">
+            <summary>
+            Encapsulates a tree item which represnets a service.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPServiceTreeItem.KeyFor(ManagedUPnP.Service)">
+            <summary>
+            Gets the tree item key for a service.
+            </summary>
+            <param name="service">The service to get the key for.</param>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPServiceTreeItem.#ctor(ManagedUPnP.Service)">
+            <summary>
+            Creates a new service tree item.
+            </summary>
+            <param name="service">The service for the tree item.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPServiceTreeItem.InfoControl">
+            <summary>
+            Gets a newly created information control for the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPServiceTreeItem.ItemText">
+            <summary>
+            Gets the item text for the tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPServiceTreeItem.ItemKey">
+            <summary>
+            Gets the key for teh tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPServiceTreeItem.ItemIcon">
+            <summary>
+            Gets the custom icon for the node.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPDeviceTreeItem">
+            <summary>
+            Encapsulates a tree item which represnets a device.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.UPnPDeviceTreeItem.mdDevice">
+            <summary>
+            The device for this tree item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPDeviceTreeItem.KeyFor(ManagedUPnP.Device)">
+            <summary>
+            Gets the tree item key for a device.
+            </summary>
+            <param name="device">The device to get the key for.</param>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPDeviceTreeItem.#ctor(ManagedUPnP.Device)">
+            <summary>
+            Creates a new device tree item.
+            </summary>
+            <param name="device">The device for the tree item.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPDeviceTreeItem.LinkedObject">
+            <summary>
+            Gets the linked object to the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPDeviceTreeItem.InfoControl">
+            <summary>
+            Gets a newly created information control for the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPDeviceTreeItem.ItemKey">
+            <summary>
+            Gets the key for teh tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPDeviceTreeItem.ItemText">
+            <summary>
+            Gets the item text for the tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPDeviceTreeItem.ItemIcon">
+            <summary>
+            Gets the custom icon for the node.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlLinkRichTextBox">
+            <summary>
+            Encapsulates a rich text box with built in link execution when the user clicks a link.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlLinkRichTextBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlLinkRichTextBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlLinkRichTextBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlLinkRichTextBox.#ctor">
+            <summary>
+            Creates a new link rich text box.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlLinkRichTextBox.OnLinkClicked(System.Windows.Forms.LinkClickedEventArgs)">
+            <summary>
+            Handles when a link is clicked.
+            </summary>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPCustomCodeGenerator">
+            <summary>
+            Encapsulates a control to allow the user to generate a set
+            of classes for devices / services.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.mdDevice">
+            <summary>
+            The current device for which to generate classes.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.#ctor">
+            <summary>
+            Cerates a new Custom Code Generator.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.GetServiceDeviceClassNames(System.Collections.Generic.Dictionary{System.String,ManagedUPnP.Service},System.Collections.Generic.Dictionary{System.String,ManagedUPnP.Device},System.Windows.Forms.TreeNodeCollection)">
+            <summary>
+            Gets the service and device class names for 
+            the checked nodes in the tree.
+            </summary>
+            <param name="services">The dictionary to contain the ClassNames, and Services.</param>
+            <param name="devices">The dictionary to contain the ClassNames, and Devices.</param>
+            <param name="nodes">The nodes to add the service and device class names for.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.GetFileNames(System.Collections.Generic.Dictionary{System.String,ManagedUPnP.Service},System.Collections.Generic.Dictionary{System.String,ManagedUPnP.Device})">
+            <summary>
+            Gets the file names for the device and service classes.
+            </summary>
+            <param name="services">The ClassName, Service dictionary identifying the services.</param>
+            <param name="devices">The ClassName, Device dictionary identifying the devices.</param>
+            <returns>A dictionary containing Serve/Device, FileNames.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.GetSelectedScope">
+            <summary>
+            Gets the selected scope for the classes.
+            </summary>
+            <returns>The selected scope.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.PerformCodeGeneration">
+            <summary>
+            Performs the code generation.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.UpdateEnabled">
+            <summary>
+            Updates the enabled properties of controls.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.AddDevice(ManagedUPnP.Device)">
+            <summary>
+            Adds a device to the selection tree view.
+            </summary>
+            <param name="device">The device to add.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.SetDevice(ManagedUPnP.Device)">
+            <summary>
+            Sets the device for the entire operation.
+            </summary>
+            <param name="device">The new device.</param>
+            <remarks>Clears all user settings.</remarks>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.DefaultNodes(System.Windows.Forms.TreeNodeCollection)">
+            <summary>
+            Defaults all the values for the nodes including class names.
+            </summary>
+            <param name="nodes">The nodes to default.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.tbSelection_AfterLabelEdit(System.Object,System.Windows.Forms.NodeLabelEditEventArgs)">
+            <summary>
+            Handles when the user changes a label in the treeview.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.tbSelection_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Handles when the user presses a key in the treeview.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.cmdBrowse_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the user clicks a browse button.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.cmdGenerate_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the user clicks the generate button.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.tbDesintationFolder_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the user changes the text in a destination foler.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.cgpProvider_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the user changes the Code Generator Provider.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.tbRootNamespace_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user changes the root namespace for VB.NET projects.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.Device">
+            <summary>
+            Gets or sets the device for the code generation.
+            </summary>
+            <remarks>Changing value resets all user settings.</remarks>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPCustomCodeGenerator.CodeGenProvider">
+            <summary>
+            Gets or sets the code generation provider to use.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPDeviceInfo">
+            <summary>
+            Encapsulates the info control for UPnP device.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPInfo">
+            <summary>
+            Encapsulates the base control for UPnP information.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPInfo.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPInfo.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPInfo.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPInfo.miItem">
+            <summary>
+            The tree item for this information.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPInfo.#ctor">
+            <summary>
+            Creates a new UPnP information control.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPInfo.UpdateData">
+            <summary>
+            Updates the data for the control.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPInfo.Item">
+            <summary>
+            Gets the tree item for the control.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPDeviceInfo.csYes">
+            <summary>
+            The constant textual value for Yes
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPDeviceInfo.csNo">
+            <summary>
+            The constant textual value for No
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPDeviceInfo.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPDeviceInfo.mbCodeGenerationDone">
+            <summary>
+            True if code generation has already been created.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.#ctor">
+            <summary>
+            Creats a new UPnP device info control.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.UpdateData">
+            <summary>
+            Updates the data in the control from its item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.AdapterAddressInformation(ManagedUPnP.Device)">
+            <summary>
+            Gets the adapter address information.
+            </summary>
+            <param name="device">The device to get the adapter address information for.</param>
+            <returns>The address information for the device.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.GenerateCode(System.Boolean)">
+            <summary>
+            Generates code for the device and displays it.
+            </summary>
+            <param name="force">True to force generation even if its already been done once.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.tcMain_Selected(System.Object,System.Windows.Forms.TabControlEventArgs)">
+            <summary>
+            Occurs when the tab control page is changed.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPDeviceInfo.cgpProvider_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user changes the code generation provider.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPActionTreeItem">
+            <summary>
+            Encapsulates a tree item which represents an action.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.UPnPActionTreeItem.mdDesc">
+            <summary>
+            The action description for the action for this tree item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPActionTreeItem.#ctor(ManagedUPnP.Service,ManagedUPnP.Descriptions.ActionDescription)">
+            <summary>
+            Creates a new action tree item.
+            </summary>
+            <param name="service">The service for this action tree item.</param>
+            <param name="desc">The action description for the action for this tree item.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPActionTreeItem.ItemText">
+            <summary>
+            Gets the item text for the tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPActionTreeItem.InfoControl">
+            <summary>
+            Gets a newly created information control for the item.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPActionTreeItem.ItemIcon">
+            <summary>
+            Gets the custom icon for the node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPActionTreeItem.ItemKey">
+            <summary>
+            Gets the key for teh tree list node.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPActionTreeItem.ActionName">
+            <summary>
+            Gets the name of the action for this action tree item.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPStateVarInfo">
+            <summary>
+            Encapsulates the info control for UPnP state variable.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPStateVarInfo.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPStateVarInfo.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPStateVarInfo.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPStateVarInfo.#ctor">
+            <summary>
+            Creats a new UPnP state variable info control.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPStateVarInfo.UpdateValue">
+            <summary>
+            Updates the value of the state variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPStateVarInfo.UpdateData">
+            <summary>
+            Updates the data in the control from its item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPStateVarInfo.cmdRefresh_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the refresh button is clicked.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:ManagedUPnPTest.frmUPnPBrowser">
+            <summary>
+            Encapsulates a form which allows the user to browse UPnP devices.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.frmUPnPBrowser.mdsServices">
+            <summary>
+            Handles discovery of the services.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.frmUPnPBrowser.miInfo">
+            <summary>
+            The current UPnP info control being displayed.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.#ctor">
+            <summary>
+            Creates a new UPnP browser.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.frmManagedUPnPTest_Load(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the form loads.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.frmUPnPBrowser_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Occurs when the main form is closing.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.Logging_LogLines(System.Object,ManagedUPnP.LogLinesEventArgs)">
+            <summary>
+            Occurs when a Managed UPnP log entry is raised.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="a">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.dsServices_StatusNotifyAction(System.Object,ManagedUPnP.AutoEventedDiscoveryServices{ManagedUPnP.Service}.StatusNotifyActionEventArgs)">
+            <summary>
+            Occurs when a notify action occurs for the dicovery object.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="a">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.dsServices_CreateServiceFor(System.Object,ManagedUPnP.AutoEventedDiscoveryServices{ManagedUPnP.Service}.CreateServiceForEventArgs)">
+            <summary>
+            Occurs when the discovery object wants a new auto service created.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="a">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.dsServices_CanCreateServiceFor(System.Object,ManagedUPnP.AutoEventedDiscoveryServices{ManagedUPnP.Service}.CanCreateServiceForEventArgs)">
+            <summary>
+            Occurs when the discovery object needs to determine if an auto service can be created.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="a">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.tvUPnP_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            Occurs after an item in the UPnP browser tree view is selected.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="F:ManagedUPnPTest.frmUPnPBrowser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.frmUPnPBrowser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.ctlLogBox">
+            <summary>
+            Encapsulates a thread safe auto scroll rich text box for logging purposes.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.ctlAutoScrollRichTextBox">
+            <summary>
+            Encapsulates a Rich Text Box which can have the Auto Scroll
+            enabled or disapled for appending new text.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.mbdefAutoScroll">
+            <summary>
+            The default auto scroll property value.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.mdScrollPosYfactor">
+            <summary>
+            The adjusting Y position scrolling factor for get scroll pos bug.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.miFormatUpdatingLevel">
+            <summary>
+            The updating level for formatting updates.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.miSavedOldStart">
+            <summary>
+            The previously saved selection starting position.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.miSavedOldLen">
+            <summary>
+            The previously saved selection length.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.mpSavedScrollPoint">
+            <summary>
+            The previously saved scroll location.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.mbSavedOldForwardSelection">
+            <summary>
+            True if previouslys saved selection is forward.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.mbSuspendPainting">
+            <summary>
+            True if painting is being suspended.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.miLockCount">
+            <summary>
+            The lock count for window updating.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.mbAutoScroll">
+            <summary>
+            True if auto scroll is enabled.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.#ctor">
+            <summary>
+            Creates a new auto scroll rich text box.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.GetNumberOfLines">
+            <summary>
+            Returns the total number of lines in the rich edit.
+            </summary>
+            <returns>Total number of lines.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.GetScrollPos">
+            <summary>
+            Gets the scroll position of the text box.
+            </summary>
+            <returns>The point denoting the scroll position.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.SetScrollPos(System.Drawing.Point)">
+            <summary>
+            Sets the scoll position of the text box.
+            </summary>
+            <remarks>This code compensates for the EM_GETSCROLLPOS message limitations.</remarks>
+            <param name="value">The new scroll position.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.IsSelectionForward">
+            <summary>
+            Returns true if the selection is in a forward direction (cursor is after selection)
+            or false if the selection is in a backward direction (cursor is before selection).
+            </summary>
+            <returns>True if selection is forward.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.SetUpdating(System.Boolean)">
+            <summary>
+            Sets the status of whether an update is in progress.
+            </summary>
+            <param name="updating">True if updating is beginning false otherwise.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            Processes all window messages
+            </summary>
+            <param name="m">The message received</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.AppendText(System.String)">
+            <summary>
+            Appends text to the end of the text box following the
+            auto scroll property settings.
+            </summary>
+            <param name="text">The text to append to the end of the text box.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.ScrollToEnd(System.Boolean)">
+            <summary>
+            Scrolls to the end.
+            </summary>
+            <param name="preserveSelection">True to preserve the selection, false to move cursor to start of last line.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.GetSel(System.Int32@,System.Int32@)">
+            <summary>
+            Gets the selection start and length.
+            </summary>
+            <param name="start">Start of selection.</param>
+            <param name="length">Length of selection.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.SetSel(System.Int32,System.Int32)">
+            <summary>
+            Sets the selection start and length.
+            </summary>
+            <param name="start">The start of the selection.</param>
+            <param name="length">The length of the selection.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.ScrollToLine(System.Int32,System.Boolean)">
+            <summary>
+            Scrolls to a line.
+            </summary>
+            <param name="line">The line to scroll to.</param>
+            <param name="preserveSelection">True to preserve the selection, false to move cursor to start of line.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.LockWindow">
+            <summary>
+            Locks the window so that no redrawing occurs.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.UnlockWindow">
+            <summary>
+            Unlocks and invalidates the window to resume redrawing.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.BeginFormattingUpdate">
+            <summary>
+            Begins udpating of the formatting.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EndFormattingUpdate">
+            <summary>
+            Ends updating of the formatting.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.ctlAutoScrollRichTextBox.AutoScroll">
+            <summary>
+            Gets or sets whether to Auto Scroll the text box when
+            text is appended.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.ctlAutoScrollRichTextBox.ScrollPos">
+            <summary>
+            Gets or sets the scroll position of the text box.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions">
+            <summary>
+            Contains all API definitions used for the auto scroll rich text box.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.GetCaretPos(System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI@)">
+            <summary>
+            Gets the caret position in logical coordinates.
+            </summary>
+            <param name="point">The point to receive the coordinates.</param>
+            <returns>Standard api success / failure.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.SendMessageLong(System.IntPtr,System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages,System.Int32,System.Int32)">
+            <summary>
+            Sends a message using the LParam as an int.
+            </summary>
+            <param name="handle">The handle of the window.</param>
+            <param name="msg">The message id.</param>
+            <param name="wParam">The WParam of the message.</param>
+            <param name="lParam">The LParam of the message.</param>
+            <returns>The return value of the message.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.SendMessageLongRef(System.IntPtr,System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages,System.Int32@,System.Int32@)">
+            <summary>
+            Sends a message using WParam and LParam as int pointers.
+            </summary>
+            <param name="handle">The handle of the window.</param>
+            <param name="msg">The message id.</param>
+            <param name="wParam">The WParam of the message.</param>
+            <param name="lParam">The LParam of the message.</param>
+            <returns>The return value of the message.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.SendMessagePoint(System.IntPtr,System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages,System.Int32,System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI@)">
+            <summary>
+            Sends a message using the LParam as a POINTAPI pointer.
+            </summary>
+            <param name="handle">The handle of the window.</param>
+            <param name="msg">The message id.</param>
+            <param name="wParam">The WParam of the message.</param>
+            <param name="point">The referenced point to return the value in.</param>
+            <returns>The return value of the message.</returns>
+        </member>
+        <member name="T:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages">
+            <summary>
+            Contains standard windows messages.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.WM_USER">
+            <summary>
+            Specifies user defined message.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.WM_SETREDRAW">
+            <summary>
+            Sets whether a window can redraw.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.WM_PAINT">
+            <summary>
+            Raised when the windows client area is painted.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.WM_NCPAINT">
+            <summary>
+            Raised when the windows non-client area is painted.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.WM_ERASEBKGND">
+            <summary>
+            Raised when the background of the window needs erasing.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.EM_GETSEL">
+            <summary>
+            Gets the selection range for an edit box.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.EM_SETSEL">
+            <summary>
+            Sets the selection range for an edit box.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.EM_GETSCROLLPOS">
+            <summary>
+            Gets the scroll position for an edit box.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.Messages.EM_SETSCROLLPOS">
+            <summary>
+            Sets the scroll position for an edit box.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI">
+            <summary>
+            Used to representing a point for API functions.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI.X">
+            <summary>
+            The x position of the point.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI.Y">
+            <summary>
+            The y position of the point.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI.op_Explicit(System.Drawing.Point)~System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI">
+            <summary>
+            Casts a System.Drawing.Point to a POINTAPI.
+            </summary>
+            <param name="point">The System.Drawing.Point.</param>
+            <returns>A new POINTAPI structure.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI.op_Explicit(System.Windows.Forms.ctlAutoScrollRichTextBox.EnhTextBoxAPIFunctions.POINTAPI)~System.Drawing.Point">
+            <summary>
+            Casts a POINTAPI to System.Drawing.Point.
+            </summary>
+            <param name="point">The POINTAPI.</param>
+            <returns>A new System.Drawing.Point structure.</returns>
+        </member>
+        <member name="F:System.Windows.Forms.ctlLogBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlLogBox.msbToAppend">
+            <summary>
+            The text to append once the control has been created.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.#ctor">
+            <summary>
+            Creates a new log box control.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.AppendLogText(System.String)">
+            <summary>
+            Appends text to the log using thread safe methods.
+            </summary>
+            <param name="text">The text to append.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.AppendOutstanding">
+            <summary>
+            Appends all outstanding text that couldnt be appended
+            before the creation of the control.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.AppendToOutstanding(System.String)">
+            <summary>
+            Appends text to the outstanding text to append.
+            </summary>
+            <param name="text">The text to append.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.OnLinkClicked(System.Windows.Forms.LinkClickedEventArgs)">
+            <summary>
+            Occurs when a link is clicked in the rich text box.
+            </summary>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.OnHandleCreated(System.EventArgs)">
+            <summary>
+            Occurs when the handle for the text box is initially created.
+            </summary>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.cmMenu_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Occurs before the context menu opens.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.miCopy_Click(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user clicks the copy menu item.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.miCopyAll_Click(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user click the Copy all menu item.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.miSelectAll_Click(System.Object,System.EventArgs)">
+            <summary>
+            Selects all text in the text box.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.miAutoScroll_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user changes the auto scroll menu item checked property.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlLogBox.AppendLog(System.String)">
+            <summary>
+            Appends text to the log in using thread safe methods.
+            </summary>
+            <param name="text">The text to append to the log.</param>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox">
+            <summary>
+            Encapsulates a control which allows for the selection
+            of all available CodeGenerationProviders as a combo box.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.mcgCodeGenProviders">
+            <summary>
+            Stores the instances of all available Code Generation Providers.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.#ctor">
+            <summary>
+            Creates a new CodeGenProvider Selection Combo box
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.GetCodeGenProviders">
+            <summary>
+            Gets the available code generation providers from the calling assembly
+            and the ManagedUPnP assembly.
+            </summary>
+            <returns>An array of CodeGenProviders.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.FindAssignableFrom``1(System.Reflection.Assembly)">
+            <summary>
+            Finds all types which are assignable from another.
+            </summary>
+            <typeparam name="TBaseType">The base type to get all assignable types from.</typeparam>
+            <param name="assembly">The assembly to search.</param>
+            <returns>A IEnumerable containing the types which are available.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.IsDesignMode">
+            <summary>
+            Returns true if the project is in design mode
+            </summary>
+            <returns>True if the project is in design mode</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.AddSelectionItems">
+            <summary>
+            Adds the selection items to the combo box
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.UPnPBrowser.ctlCodeGenProviderComboBox.CodeGenProvider">
+            <summary>
+            Gets or sets the selected code gen provider.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.EnumSelectionTextAttribute">
+            <summary>
+            Attribute for the text to show in the user selection box for an Enumeration Field
+            </summary>
+            <remarks>
+            If no selection text is specified then the name of the enum field is used
+            </remarks>
+        </member>
+        <member name="F:System.Windows.Forms.EnumSelectionTextAttribute.msSelectionText">
+            <summary>
+            Stores the selection text for thie enumeration field
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.EnumSelectionTextAttribute.#ctor(System.String)">
+            <summary>
+            Creates a new EnumSelectionText attribute
+            </summary>
+            <param name="selectionText">The selection text for the attribute</param>
+        </member>
+        <member name="M:System.Windows.Forms.EnumSelectionTextAttribute.ToString">
+            <summary>
+            Gets the text for this selection text attribute
+            </summary>
+            <returns>The text for the selection text attribute</returns>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlDoubleBufferedDataGridView">
+            <summary>
+            Encapsulates a DataGridView which draws quicker due to double buffering
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlDoubleBufferedDataGridView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlDoubleBufferedDataGridView.tmrCommitEdit">
+            <summary>
+            The commit edit timer
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlDoubleBufferedDataGridView.mbSingleClickComboBoxes">
+            <summary>
+            Determines whether combo boxes only need a single click to be dropped down
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlDoubleBufferedDataGridView.mbAutoCommitComboBoxes">
+            <summary>
+            Determines if closing a combo box drop down causes an auto commit to occur
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlDoubleBufferedDataGridView.miSuspendPaint">
+            <summary>
+            Stores the level of paint suspension.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.#ctor">
+            <summary>
+            Creates a new buffered data grid view
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.BeginUpdate">
+            <summary>
+            Suppresses painting of the grid view.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.EndUpdate">
+            <summary>
+            Resumes painting of the grid view.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Handles when painting is needed.
+            </summary>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.OnCellMouseUp(System.Windows.Forms.DataGridViewCellMouseEventArgs)">
+            <summary>
+            Ensures that only a single click is required to drop down a combo box
+            </summary>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.OnEditingControlShowing(System.Windows.Forms.DataGridViewEditingControlShowingEventArgs)">
+            <summary>
+            Adds events to the editing control
+            </summary>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.lcComboBoxControl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles when a new index is selected in a combo box control
+            </summary>
+            <param name="sender">The sender of the event</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.lcComboBoxControl_VisibleChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles when a combo box controls visibility is changed
+            </summary>
+            <param name="sender">The sender of the event</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.lcComboBoxControl_DropDownClosed(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when a combo box drop down closed event fires
+            </summary>
+            <param name="sender">The sender of the event</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.TimedCommitEdit(System.Boolean)">
+            <summary>
+            Fires a timed commit edit event
+            </summary>
+            <param name="changesCancelled">True if we are still waiting to see if the user cancelled</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlDoubleBufferedDataGridView.tmrCommitEdit_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Handles the commit edit timer event
+            </summary>
+            <param name="sender">The sender of the event</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlDoubleBufferedDataGridView.SingleClickComboBoxes">
+            <summary>
+            Gets or sets whether to use a single click combo box interface
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlDoubleBufferedDataGridView.AutoCommitComboBoxes">
+            <summary>
+            Gets or sets whether to auto commit combo boxes after selection
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.ctlEnumSelectionBox`1">
+            <summary>
+            Encapsulates a combo box which allows the user to select from the fields in an enumeration
+            </summary>
+            <typeparam name="EnumType">The enumeration type to base the selection on</typeparam>
+        </member>
+        <member name="F:System.Windows.Forms.ctlEnumSelectionBox`1.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlEnumSelectionBox`1.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlEnumSelectionBox`1.#ctor">
+            <summary>
+            Creates a new ctlEnumSelectionBox
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlEnumSelectionBox`1.IsDesignMode">
+            <summary>
+            Returns true if the project is in design mode
+            </summary>
+            <returns>True if the project is in design mode</returns>
+        </member>
+        <member name="M:System.Windows.Forms.ctlEnumSelectionBox`1.AddSelectionItems">
+            <summary>
+            Adds the selection items to the combo box
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.ctlEnumSelectionBox`1.BoxedValue">
+            <summary>
+            Gets or sets the value of the combo box as a boxed value.
+            </summary>
+            <remarks>
+            Setting to null will deselect any value, null is returned
+            if no value is selected
+            </remarks>
+        </member>
+        <member name="P:System.Windows.Forms.ctlEnumSelectionBox`1.Value">
+            <summary>
+            Gets or sets the value of the combo box
+            </summary>
+            <remarks>
+            Setting to hidden value will deselect combo box, default
+            value is returned if no value is selected
+            </remarks>
+        </member>
+        <member name="T:System.Windows.Forms.ctlEnumSelectionBox`1.EnumSelectionItem">
+            <summary>
+            Encapsulates a selection item within the combo box
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlEnumSelectionBox`1.EnumSelectionItem.msText">
+            <summary>
+            The text for the selection item
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ctlEnumSelectionBox`1.EnumSelectionItem.mtValue">
+            <summary>
+            The value for the selection item
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ctlEnumSelectionBox`1.EnumSelectionItem.#ctor(System.String,`0)">
+            <summary>
+            Creates a new EnumSelectionItem
+            </summary>
+            <param name="text">The text for the selection item</param>
+            <param name="value">The underlying value for the selection item</param>
+        </member>
+        <member name="M:System.Windows.Forms.ctlEnumSelectionBox`1.EnumSelectionItem.ToString">
+            <summary>
+            Gets the text for the selection item
+            </summary>
+            <returns>The text for the item</returns>
+        </member>
+        <member name="P:System.Windows.Forms.ctlEnumSelectionBox`1.EnumSelectionItem.Value">
+            <summary>
+            Gets the underlying value for the selection item
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPServiceInfo">
+            <summary>
+            Encapsulates the info control for UPnP service.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPServiceInfo.csYes">
+            <summary>
+            The constant textual value for Yes
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPServiceInfo.csNo">
+            <summary>
+            The constant textual value for No
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPServiceInfo.csService">
+            <summary>
+            The constant textual value for Service
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPServiceInfo.csDeviceService">
+            <summary>
+            The constant textual value for Device Service
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPServiceInfo.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPServiceInfo.mbCodeGenerationDone">
+            <summary>
+            True if code generation has already been created.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.AddLine(System.Text.StringBuilder,System.String,System.String)">
+            <summary>
+            Adds a line to a string builder if its set.
+            </summary>
+            <param name="info">The info to add to.</param>
+            <param name="value">The value to add if its not null or empty.</param>
+            <param name="name">The name to use for the value.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.#ctor">
+            <summary>
+            Creats a new UPnP service info control.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.UpdateData">
+            <summary>
+            Updates the data in the control from its item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.AddDescriptionProperties(System.String,ManagedUPnP.Descriptions.Description)">
+            <summary>
+            Adds properties for a description object.
+            </summary>
+            <param name="source">The name of the source from which the description came.</param>
+            <param name="description">The description object to add the properties for.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.GenerateCode(System.Boolean)">
+            <summary>
+            Generates code for the device and displays it.
+            </summary>
+            <param name="force">True to force generation even if its already been done once.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.tcMain_Selected(System.Object,System.Windows.Forms.TabControlEventArgs)">
+            <summary>
+            Occurs when the tab control page is changed.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPServiceInfo.cgpProvider_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user changes the code generation provider.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPActionInfo">
+            <summary>
+            Encapsulates the info control for a UPnP action.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPActionInfo.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.#ctor">
+            <summary>
+            Creates a new action info control.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.AddIOValue(ManagedUPnP.Descriptions.ArgumentDescription,ManagedUPnP.Descriptions.StateVariableDescription,System.Int32@,System.Int32@)">
+            <summary>
+            Adds an input or output value to the data grids.
+            </summary>
+            <param name="argDesc">The argument description for the argument.</param>
+            <param name="svDesc">The state variable description for the linked state variable to the argument.</param>
+            <param name="inputIndex">The current input index.</param>
+            <param name="outputIndex">The current output index.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.ExceptionToString(System.Exception)">
+            <summary>
+            Converts an exception (including inner exceptions) into a readable string.
+            </summary>
+            <param name="e">The exception to convert.</param>
+            <returns>A readable string for the exception.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.Execute">
+            <summary>
+            Executes the action based on the inputs and outputs data grids.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.UpdateData">
+            <summary>
+            Updates the data in the control from its item.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.cmdExecute_Click(System.Object,System.EventArgs)">
+            <summary>
+            Occurs when the user clicks the execute button.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo">
+            <summary>
+            Encapsulates row data for a row in the input or output data grids.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.madArgDesc">
+            <summary>
+            The argument description for the input or output.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.msvStateVarDesc">
+            <summary>
+            The state variable description for the input or output.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.miIndex">
+            <summary>
+            The index of the input or output.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.#ctor(ManagedUPnP.Descriptions.ArgumentDescription,ManagedUPnP.Descriptions.StateVariableDescription,System.Int32)">
+            <summary>
+            Creates a new row info structure.
+            </summary>
+            <param name="argDesc">The argument description for the input or output.</param>
+            <param name="stateVarDesc">The state variable description for the input or output.</param>
+            <param name="index">The index of the input or output.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.ArgDesc">
+            <summary>
+            Gets the argument description for the input or output.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.StateVarDesc">
+            <summary>
+            Gets state variable description for the input or output.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPActionInfo.RowInfo.Index">
+            <summary>
+            Gets the index of the input or output.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.EnumSelectionHideAttribute">
+            <summary>
+            Attribute indicating to hide the Enumeration field from the user selection box
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.EnumSelectionHideAttribute.#ctor">
+            <summary>
+            Creates a new EnumSelectionHide attribute
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.ctlUPnPTreeBrowser">
+            <summary>
+            Encapsulates a tree view which lists devices, service, actions and state variables.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.mbmpDevice">
+            <summary>
+            The device icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.mbmpService">
+            <summary>
+            The service icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.mbmpStateVar">
+            <summary>
+            The state variable icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.mbmpAction">
+            <summary>
+            The state action icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.miDeviceImage">
+            <summary>
+            The index in the image list to the device icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.miServiceImage">
+            <summary>
+            The index in the image list to the service icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.miStateVarImage">
+            <summary>
+            The index in the image list to the state variable icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.miActionImage">
+            <summary>
+            The index in the image list to the action icon bitmap.
+            </summary>
+        </member>
+        <member name="F:ManagedUPnPTest.ctlUPnPTreeBrowser.mbAddServiceDetail">
+            <summary>
+            True to add service detail for all added devices and services from this point.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.#cctor">
+            <summary>
+            Occurs when static initialisation is required
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.CreateDefaultIcon(System.Char,System.Drawing.Color)">
+            <summary>
+            Creates a default icon bitmap.
+            </summary>
+            <param name="text">The char to draw in the icon.</param>
+            <param name="color">The color of the char in the icon.</param>
+            <returns>A 16x16 32bpp ARGB bitmap for the icon.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.#ctor">
+            <summary>
+            Creates a new UPnP browser tree view.
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.AddUPnPItem(System.Windows.Forms.TreeNodeCollection,ManagedUPnPTest.IUPnPTreeItem)">
+            <summary>
+            Adds a UPnP tree item to the tree view.
+            </summary>
+            <param name="nodes">The nodes collection to add the item to.</param>
+            <param name="item">The item to add.</param>
+            <returns>The new tree node containing the item.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.GetDeviceNodeFor(ManagedUPnP.Device)">
+            <summary>
+            Gets a tree node collection for a device.
+            </summary>
+            <param name="device">The device to get the collection for.</param>
+            <returns>The tree node collection for the device, or null if not found.</returns>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.UpdateNode(System.Windows.Forms.TreeNode)">
+            <summary>
+            Updates a nodes details from its item.
+            </summary>
+            <param name="node">The node to update.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.AddService(ManagedUPnP.Service)">
+            <summary>
+            Adds a service to the tree view at the correct location.
+            </summary>
+            <param name="service">The service to add.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.RemoveDevice(ManagedUPnP.Device)">
+            <summary>
+            Removes a device from the tree view.
+            </summary>
+            <param name="device">The device to remove.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.RemoveDevice(System.String)">
+            <summary>
+            Removes a device from the tree view.
+            </summary>
+            <param name="udn">The udn for the device to remove.</param>
+        </member>
+        <member name="M:ManagedUPnPTest.ctlUPnPTreeBrowser.RemoveService(ManagedUPnP.Service)">
+            <summary>
+            Removes a service from the tree view.
+            </summary>
+            <param name="service">The service to remove.</param>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPTreeBrowser.SelectedItem">
+            <summary>
+            Gets the selected tree item or null if none selected.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.ctlUPnPTreeBrowser.AddServiceDetail">
+            <summary>
+            Gets or sets whether to add actions and state variables for the services.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.EnumSelectionDefaultAttribute">
+            <summary>
+            Attribute indicating whether or not this Enumeration field is the default in the selection box
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.EnumSelectionDefaultAttribute.#ctor">
+            <summary>
+            Creates a new EnumSelectionDefault attribute
+            </summary>
+        </member>
+        <member name="M:ManagedUPnPTest.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.UPnPBrowser.ctlClassScopeComboBox">
+            <summary>
+            Encapsulates a combo box for allows for the 
+            selection of the ClassScope enumerations.
+            </summary>
+        </member>
+        <member name="T:ManagedUPnPTest.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ManagedUPnPTest.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

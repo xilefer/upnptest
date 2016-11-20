@@ -1,0 +1,11 @@
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Release\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Release\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\ComponentsTest\bin\Release\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\ComponentsTest\bin\Release\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\ComponentsTest\bin\Release\ManagedUPnP.dll
+C:\VS2010 Projects\UPnP\ComponentsTest\bin\Release\ManagedUPnP.pdb
+C:\VS2010 Projects\UPnP\ComponentsTest\bin\Release\ManagedUPnP.xml
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Release\ComponentsTest.frmUPnPDiscoveryTest.resources
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Release\ComponentsTest.Properties.Resources.resources
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Release\ComponentsTest.csprojResolveAssemblyReference.cache
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Release\ComponentsTest.csproj.GenerateResource.Cache

@@ -1,0 +1,24 @@
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\CodeGenTest.Properties.Resources.resources
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Release\CodeGenTest.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Release\CodeGenTest.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Release\ManagedUPnP.dll
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Release\ManagedUPnP.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\bin\Release\ManagedUPnP.xml
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\CodeGenTest.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\CodeGenTest.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\CodeGenTest\obj\x86\Release\CodeGenTest.Form1.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Release\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Release\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Release\ManagedUPnP.dll
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Release\ManagedUPnP.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Release\ManagedUPnP.xml
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\CodeGenTest.Form1.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\CodeGenTest.Properties.Resources.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\GenerateResource.read.1.tlog
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\GenerateResource.write.1.tlog
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Release\CodeGenTest.pdb

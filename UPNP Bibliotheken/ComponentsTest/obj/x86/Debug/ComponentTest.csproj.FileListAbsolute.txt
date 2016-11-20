@@ -1,0 +1,14 @@
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\ManagedUPnP.dll
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\ManagedUPnP.pdb
+C:\VS2010 Projects\UPnP\CodeGenTest\bin\Debug\ManagedUPnP.xml
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.frmComponentTest.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.Properties.Resources.resources
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\CodeGenTest\obj\x86\Debug\CodeGenTest.pdb
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Debug\CodeGenTest.exe
+C:\VS2010 Projects\UPnP\ComponentsTest\obj\x86\Debug\CodeGenTest.pdb

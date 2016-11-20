@@ -1,0 +1,32 @@
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\bin\Debug\ExternalIPAddress.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\bin\Debug\ExternalIPAddress.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\bin\Debug\ManagedUPnP.dll
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\bin\Debug\ManagedUPnP.pdb
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\bin\Debug\ManagedUPnP.xml
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.exe
+C:\Download\Programming\VS2010Projects\UPnPMonitor\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.pdb
+C:\VS2010 Projects\UPnP\ExternalIPAddress\bin\Debug\ExternalIPAddress.exe
+C:\VS2010 Projects\UPnP\ExternalIPAddress\bin\Debug\ExternalIPAddress.pdb
+C:\VS2010 Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.dll
+C:\VS2010 Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.pdb
+C:\VS2010 Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.xml
+C:\VS2010 Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.exe
+C:\VS2010 Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.pdb
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\bin\Debug\ExternalIPAddress.exe
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\bin\Debug\ExternalIPAddress.pdb
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.dll
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.pdb
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.xml
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.exe
+C:\Download\Programming\VS2010Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.pdb
+C:\VSE Projects\UPnP\ExternalIPAddress\bin\Debug\ExternalIPAddress.exe
+C:\VSE Projects\UPnP\ExternalIPAddress\bin\Debug\ExternalIPAddress.pdb
+C:\VSE Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.dll
+C:\VSE Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.pdb
+C:\VSE Projects\UPnP\ExternalIPAddress\bin\Debug\ManagedUPnP.xml
+C:\VSE Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VSE Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.exe
+C:\VSE Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.pdb
+C:\VS2010 Projects\UPnP\ExternalIPAddress\obj\x86\Debug\ExternalIPAddress.csprojResolveAssemblyReference.cache
